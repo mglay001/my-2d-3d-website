@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>SIR PHOE KYAW</title> <!-- ဤနေရာတွင် Website အမည်ကို "SIR PHOE KYAW" ဟု ပြောင်းလဲထားသည် -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<meta name="keywords" content="2D 3D, 2D, 3D, Myanmar 2D 3D, Myanmar 2D, Myanmar 3D, 3D 2D, 2D Myanmar, Thai SET" />
+		<meta name="description" content="My Lucky 2D 3D is a website of Thailand stock Exchange data. SET data stats are collected from Thailand SET of Kasikorn Bank. Official dailiy stats from Stock market data and analysis." />
+		
+		<!--
+		=========================
+		ICONS
+		========================= -->
+		<!--IONICONS-->
+		<link rel="stylesheet" href="https://mylucky2d3d.com/assets/css/ionicons.min.css">
+		<!-- FONTAWESOME -->
+		<link rel="stylesheet" href="https://mylucky2d3d.com/assets/css/fontawesome-all.min.css">
+		<!--
+		=========================
+		THIRD PARTY PLUGINS
+		========================= -->
+		<!-- MANIFIC POPUPS-->
+		<link rel="stylesheet" href="https://mylucky2d3d.com/assets/css/magnific-popup.css">
+		<!-- OWL CAROUSEL-->
+		<link rel="stylesheet" href="https://mylucky2d3d.com/assets/css/owl.carousel.min.css">
+		<!--SWIPER CAROUSEL-->
+		<link rel="stylesheet" href="https://mylucky2d3d.com/assets/css/swiper.min.css">
+		<!-- BOOTSTRAP -->
+		<link rel="stylesheet" href="https://mylucky2d3d.com/assets/css/bootstrap.min.css">
+		<!--
+		=========================
+		MAIN STYLES
+		========================= -->
+		<!-- MAIN STYLES-->
+		<link rel="stylesheet" href="https://mylucky2d3d.com/assets/css/styles.css">
+		<!-- RESPONSIVE -->
+		<link rel="stylesheet" href="https://mylucky2d3d.com/assets/css/responsive.css">
+		<!--
+		=========================
+		FAVICONS
+		========================= -->
+		<link rel="shortcut icon" href="/favicon.ico"><!-- 16x16 size favicon -->
+		
+		<script src="https://mylucky2d3d.com/assets/js/jquery.min.js"></script>
+		<script src="https://mylucky2d3d.com/assets/js/notify.js"></script>
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-FNXS8FYWNY"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			
+			gtag('config', 'G-FNXS8FYWNY');
+		</script>
+		
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1231951110737769" crossorigin="anonymous"></script>
+     
+	</head>
+	<body class="x-hidden">
+		
+		<!-- Loading spinner ဖယ်ရှားပြီးဖြစ်သည် -->
+		
+		<nav class="navbar navbar-expand-lg fixed-top custom-menu custom-menu__light navbar-is-sticky">
+			<div class="container">
+				<a class="navbar-brand" href="https://mylucky2d3d.com/">
+					<!-- Logo ပုံကို ဖယ်ရှားပြီး "SIR PHOE KYAW" ဟု ပြောင်းလဲထားသည် -->
+					<span style="font-size: 24px; font-weight: bold; color: #333;">SIR PHOE KYAW</span>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="menu-icon__circle"></span>
+					<span class="menu-icon">
+						<span class="menu-icon__bar"></span>
+						<span class="menu-icon__bar"></span>
+						<span class="menu-icon__bar"></span>
+					</span>
+				</button>
+		
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-lg-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="https://mylucky2d3d.com/">ပင်မစာမျက်နှာ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://mylucky2d3d.com/2d">2D</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://mylucky2d3d.com/3d">3D</a>
+						</li>
+					</ul>
+					<div class="custom-menu__right">
+						<a href="https://t.me/phoekyaw2d" target="_blank" class="btn btn-primary btn-pills">အက်ပ်ဒေါင်းလုဒ်</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+        <script src="https://mylucky2d3d.com/assets/js/jquery-1.11.1.min.js"></script>
+        <style type="text/css">
+            .blockTime {
+                font-size: 24px;
+                font-weight: bold;
+                color: #236fab;
+                text-align: center;
+            }
+            .blockLucky {
+                font-family: 'Helvetica Neue', 'Open Sans', Arial, sans-serif;
+                font-size: 35px;
+                font-weight: bold;
+                color: #0a8a2d;
+                text-align: center;
+            }
+            .blockSetStyle {
+                font-family: 'Helvetica Neue', 'Open Sans', Arial, sans-serif;
+                font-size: 20px;
+                font-weight: bold;
+                color: #236fab;
+                text-align: center;
+            }
+            .blockValStyle {
+                font-family: 'Helvetica Neue', 'Open Sans', Arial, sans-serif;
+                font-size: 17px;
+                color: #1B2733;
+                text-align: center;
+            }
+            .pb5 {
+                padding-bottom: 5px;
+            }
+            .updTimeStyle {
+                font-family: 'Helvetica Neue', 'Open Sans', Arial, sans-serif;
+                font-size: 15px;
+                color: #1B2733;
+                text-align: center;
+            }
+            .green {
+                color: #0a8a2d;
+            }
+            
+            .wThStyle {
+                font-family: 'Helvetica Neue', 'Open Sans', Arial, sans-serif;
+                font-size: 17px;
+                color: #1B2733;
+                text-align: center;
+                height: 45px;
+            }
+            .wTdStyle {
+                font-family: 'Helvetica Neue', 'Open Sans', Arial, sans-serif;
+                font-size: 16px;
+                color: #1B2733;
+                text-align: center;
+                height: 45px;
+            }
+        </style>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                
+                var bMInterval;
+                function bMStart() {
+                    bMInterval		= setInterval(bM, 3000);
+                }
+                function bMStop() {
+                    clearInterval(bMInterval);
+                }
+                
+                
+                var bAInterval;
+                function bAStart() {
+                    bAInterval 		= setInterval(bA, 3000);
+                }
+                function bAStop() {
+                    clearInterval(bAInterval);
+                }
+                
+                
+                var bPInterval;
+                function bPStart() {
+                    bPInterval 		= setInterval(bP, 3000);
+                }
+                function bPStop() {
+                    clearInterval(bPInterval);
+                }
+                
+                
+                var timerInterval;
+                function start() {
+                    timerInterval		= setInterval(getUpdDate, 5000);
+                }
+                function stop() {
+                    clearInterval(timerInterval);
+                }
+                
+                
+                
+                var ajaxStatus 			= 0;
+                var refreshStatus 		= "yes";
+                start();
+                bMStart();
+                bAStart();
+                bPStart(); // PM blinking added for completeness (assuming this was desired for the live data effect)
+                        
+                
+                
+                function getUpdDate() {
+                    var dateVal 		= $("#dateVal").val();
+                    var periodVal 		= $("#periodVal").val();
+                    
+                    if(ajaxStatus == 0) {
+                        ajaxStatus 		= 1;
+                        
+                        if(refreshStatus == "yes") {
+                            $.ajax({
+                                url: 'https://mylucky2d3d.com/zusksbasqyfg/vodiicunchvb',
+                                type: 'POST',
+                                cache: false,
+                                data: {
+                                    dateVal: dateVal,
+                                    periodVal: periodVal
+                                },
+                                error: function() {
+                                    // Handle error if the API call fails (e.g., show a message)
+                                    ajaxStatus = 0; // Reset status to allow retries
+                                },
+                                dataType: 'json',
+                                success: function(data) {
+                                    var res_status 		= data.status;
+                                    var res_errorMsg	= data.errorMsg;
+                                    var res_playSet 	= data.playSet;
+                                    var res_playValue 	= data.playValue;
+                                    var res_playLucky 	= data.playLucky;
+                                    var res_playDtm 	= data.playDtm;
+                                    var res_fiStatus 	= data.fiStatus;
+                                    
+                                    if(res_status == "success") {
+                                        
+                                        document.getElementById("luckyNumbWrp").innerHTML 	= res_playLucky;
+                                        document.getElementById("updTimeWrp").innerHTML 	= res_playDtm;
+                                        if(periodVal == "am") {
+                                        	document.getElementById("amSetWrp").innerHTML 	= res_playSet;
+                                        	document.getElementById("amValueWrp").innerHTML = res_playValue;
+                                        } else if(periodVal == "pm") {
+                                        	document.getElementById("pmSetWrp").innerHTML 	= res_playSet;
+                                        	document.getElementById("pmValueWrp").innerHTML = res_playValue;
+                                        }
+                                        
+                                        if(res_fiStatus == "yes") {
+                                            refreshStatus 	= "no";
+                                            bMStop();
+                                            
+                                            $("#luckyNumbWrp").addClass("green");
+                                            
+                                            if(periodVal == "am") {
+                                                document.getElementById("amLuckyWrp").innerHTML	= res_playLucky;
+                                                bAStop();
+                                            } else if(periodVal == "pm") {
+                                                document.getElementById("pmLuckyWrp").innerHTML = res_playLucky;
+                                                bPStop();
+                                            }
+                                            
+                                            // weeklyReport(); // Commented out as 2D Weekly section is removed
+                                        }
+                                        
+                                        ajaxStatus		= 0;
+                                        
+                                    } else if(res_status == "notstartyet") {
+                                        ajaxStatus 		= 0;
+                                    } else if(res_status == "noplay") {
+                                        ajaxStatus 		= 0;
+                                    } else if(res_status == "error") {
+                                        ajaxStatus 		= 0;
+                                    }
+                                }
+                            });
+                        } else {
+                            ajaxStatus 	= 0;
+                        }
+                    } else {
+                        ajaxStatus 		= 0;
+                    }
+                }
+                
+                getUpdDate();
+                // weeklyReport(); // Commented out as 2D Weekly section is removed, so no need to call this function on load
+            });
+            
+            
+            function bM() {
+                $("#luckyNumbWrp").fadeOut(300);
+                $("#luckyNumbWrp").fadeIn(300);
+            }
+            
+            function bA() {
+                $("#amSetWrp").fadeOut(300);
+                $("#amSetWrp").fadeIn(300);
+                $("#amValueWrp").fadeOut(300);
+                $("#amValueWrp").fadeIn(300);
+            }
+            
+            function bP() {
+                $("#pmSetWrp").fadeOut(300);
+                $("#pmSetWrp").fadeIn(300);
+                $("#pmValueWrp").fadeOut(300);
+                $("#pmValueWrp").fadeIn(300);
+            }
+            
+            // weeklyReport function commented out as the section is removed
+            /*
+            function weeklyReport() {
+                $("#weeklyResultWrp").empty();
+                var dateVal 		= $("#dateVal").val();
+                $.ajax({
+                    url: 'https://mylucky2d3d.com/zusksbasqyfg/ypcydmlxbhfv',
+                    type: 'POST',
+                    cache: false,
+                    data: {
+                        dateVal: dateVal
+                    },
+                    error: function() {},
+                    dataType: 'json',
+                    success: function(data) {
+                        var res_status 		= data.status;
+                        var res_errorMsg	= data.errorMsg;
+                        
+                        $("#weeklyResultWrp").empty();
+                        if(res_status == "success") {
+                            var jsonData 		= jQuery.parseJSON(JSON.stringify(data));
+                            for (var t = 0; t < jsonData.categories.length; t++) {
+                                var counter 	= jsonData.categories[t];
+                                
+                                var resDate 	= counter.resDate;
+                                var resDay 		= counter.resDay;
+                                var resAm 		= counter.resAm;
+                                var resPm 		= counter.resPm;
+                                
+                                $("#weeklyResultWrp").append('<tr><td class="wTdStyle">'+resDate+'</td><td class="wTdStyle">'+resDay+'</td><td class="wTdStyle" style="color: #0a8a2d; font-weight: bold;">'+resAm+'</td><td class="wTdStyle" style="color: #0a8a2d; font-weight: bold;">'+resPm+'</td></tr>');
+                            }
+                        }
+                    }
+                });
+            }
+            */
+            
+            function AmReport() {
+                var dateVal 		= $("#dateVal").val();
+                $.ajax({
+                    url: 'https://mylucky2d3d.com/zusksbasqyfg/bpkhhthjpgve',
+                    type: 'POST',
+                    cache: false,
+                    data: {
+                        dateVal: dateVal
+                    },
+                    error: function() {},
+                    dataType: 'json',
+                    success: function(data) {
+                        var res_status 		= data.status;
+                        var res_errorMsg	= data.errorMsg;
+                        var res_amSet 		= data.amSet;
+                        var res_amValue 	= data.amValue;
+                        var res_amLucky 	= data.amLucky;
+                        
+                        if(res_status == "success") {
+                            document.getElementById("amLuckyWrp").innerHTML 	= res_amLucky;
+                            document.getElementById("amSetWrp").innerHTML 		= res_amSet;
+                            document.getElementById("amValueWrp").innerHTML 	= res_amValue;
+                        }
+                    }
+                });
+            }
+        </script>
+
+		<input type="hidden" id="dateVal" value="2025-07-25" />
+		<input type="hidden" id="periodVal" value="am" />
+
+
+		<section id="pricing" class="section-spacer pricing-section">
+			<div class="container">
+				<header class="section-header text-center">
+					<h2 class="section-title">2D</h2>
+					<p class="section-subtitle">25/Jul/2025 <span style="color: #ec1622;">AM</span></p>
+				</header>
+				
+				<div class="row">
+					<div class="col-md-12">
+						<div class="pricing-value" id="luckyNumbWrp">--</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 updTimeStyle">Updated: <span id="updTimeWrp"></span></div>
+				</div>
+				
+				<div class="row" style="margin-top: 10px;">
+					<div class="col-md-2"></div>
+					<div class="col-md-4 col-12">
+						<div class="feature-card">
+							
+							<div class="row">
+								<div class="col-md-12 blockTime">12:01 (AM)</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 blockLucky" id="amLuckyWrp">--</div>
+							</div>
+							<div class="row pb5">
+								<div class="col-md-12">
+									<table border="0" style="border-collapse: collapse; width: 100%; height: auto;">
+										<tr>
+											<td width="50%" class="blockSetStyle">SET</td>
+											<td width="50%" class="blockSetStyle">VALUE</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<table border="0" style="border-collapse: collapse; width: 100%; height: auto;">
+										<tr>
+											<td width="50%" class="blockValStyle" id="amSetWrp">----</td>
+											<td width="50%" class="blockValStyle" id="amValueWrp">----</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-md-4 col-12">
+						<div class="feature-card">
+							
+							<div class="row">
+								<div class="col-md-12 blockTime">16:30 (PM)</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 blockLucky" id="pmLuckyWrp">--</div>
+							</div>
+							<div class="row pb5">
+								<div class="col-md-12">
+									<table border="0" style="border-collapse: collapse; width: 100%; height: auto;">
+										<tr>
+											<td width="50%" class="blockSetStyle">SET</td>
+											<td width="50%" class="blockSetStyle">VALUE</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<table border="0" style="border-collapse: collapse; width: 100%; height: auto;">
+										<tr>
+											<td width="50%" class="blockValStyle" id="pmSetWrp">----</td>
+											<td width="50%" class="blockValStyle" id="pmValueWrp">----</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-md-2"></div>
+				</div>
+				
+				<style type="text/css">
+					.modIntS {
+						font-weight: bold;
+						color: #236fab;
+						text-align: center;
+					}
+					.modIntV {
+						font-weight: bold;
+						font-size: 19px;
+						color: #0a8a2d;
+						text-align: center;
+					}
+				</style>
+				
+				<div class="row" style="margin-top: 10px;">
+					<div class="col-md-2"></div>
+					<div class="col-md-4 col-12">
+						<div class="feature-card" style="background-color: #b1e1e3; box-shadow: none;">
+							
+										<table border="0" style="border-collapse: collapse; width: 100%; height: auto;">
+						<tr>
+							<td style="width: 33%; font-size: 20px;" rowspan="2" class="modIntS">9:30 AM</td>
+							<td style="width: 33%;" class="modIntS">Modern</td>
+							<td style="width: 33%;" class="modIntS">Internet</td>
+						</tr>
+						<tr>
+							<td style="width: 33%;" class="modIntV">99</td>
+							<td style="width: 33%;" class="modIntV">20</td>
+						</tr>
+					</table>
+					
+				</div>
+			</div>
+			<div class="col-md-4 col-12">
+				<div class="feature-card" style="background-color: #b1e1e3; box-shadow: none;">
+					
+										<table border="0" style="border-collapse: collapse; width: 100%; height: auto;">
+						<tr>
+							<td style="width: 33%; font-size: 20px;" rowspan="2" class="modIntS">2:00 PM</td>
+							<td style="width: 33%;" class="modIntS">Modern</td>
+							<td style="width: 33%;" class="modIntS">Internet</td>
+						</tr>
+						<tr>
+							<td style="width: 33%;" class="modIntV">--</td>
+							<td style="width: 33%;" class="modIntV">--</td>
+						</tr>
+					</table>
+					
+				</div>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+		
+		<!-- ကြော်ငြာ iframe များ ဖယ်ရှားပြီးဖြစ်သည် -->
+		
+	</div>
+	<div class="container">
+		<div class="row" style="padding-bottom: 20px;">
+			<div class="col-md-12">
+				<center>
+					<!-- App download icon များကို ဖယ်ရှားပြီး စာသားဖြင့်အစားထိုး -->
+					<p><a href="https://t.me/phoekyaw2d" target="_blank" style="text-decoration: none;">download link 🔗</a></p>
+				</center>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- "2D Weekly" ကဏ္ဍကို အောက်ပါအတိုင်း လုံးဝ ဖယ်ရှားလိုက်ပါပြီ -->
+<!--
+<section id="hiw" class="bg-very__gray" style="padding-top: 50px; padding-bottom: 50px;">
+	<div class="container">
+		<header class="section-header text-center">
+			<h2 class="section-title">2D Weekly</h2>
+		</header>
+		
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+				
+				<table border="0" style="border-collapse: collapse; width: 100%; height: auto;">
+					<thead>
+						<tr>
+							<th style="width: 30%;" class="wThStyle">Date</th>
+							<th style="width: 20%;" class="wThStyle">Day</th>
+							<th style="width: 25%;" class="wThStyle">AM</th>
+							<th style="width: 25%;" class="wThStyle">PM</th>
+						</tr>
+					</thead>
+					<tbody id="weeklyResultWrp">
+                        <!-- weeklyReport() JavaScript function မှ data များကို ဤနေရာတွင် ပြသမည် -->
+                    <!-- </tbody>
+				</table>
+				
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+	</div>
+</section>
+-->
+
+<!-- ကြော်ငြာ iframe များ ဖယ်ရှားပြီးဖြစ်သည် -->
+
+<footer class="section-spacer footer-section" style="padding: 30px 0px 0px 0px;">
+	<div class="container" style="border-top: 1px solid #ddd; padding-top: 10px; padding-bottom: 30px;">
+		<div class="row flex-column-reverse flex-sm-row flex-lg-row">
+			<div class="col-md-4 col-12">
+				<div class="footer-widget first-of-footer-widget">
+					<p>Copyright © 2025 SIR PHOE KYAW. <br />All Rights Reserved.</p> <!-- ဤနေရာတွင်လည်း အမည်ကို ပြောင်းလဲနိုင်သည် -->
+					<a href="mailto:kyawgyii528.ru@gmail.com">Email: kyawgyii528.ru@gmail.com</a>
+					<!-- Social List Comment ကို မဖယ်ရှားဘဲ ထားရှိသည် -->
+					<!--
+					<ul class="social-list__inline mt-10">
+						<li><a href="https://www.facebook.com/My-Lucky-496442630548418/" target="_blank"><i class="icon ion-logo-facebook"></i></a></li>
+					</ul>
+					-->
+				</div>
+			</div>
+			<div class="col-md-8 col-sm-10">
+				<div class="row">
+					<div class="col-md-4 col-6">
+						
+					</div>
+					<div class="col-md-4 col-6">
+						
+					</div>
+					<div class="col-md-4">
+						<div class="footer-widget">
+							<h4 class="footer-widget__title">ပံ့ပိုးမှု</h4>
+							<ul class="list-unstyled">
+								<li><a href="javascript:void(0);">SET Holiday</a></li>
+								<li><a href="https://mylucky2d3d.com/privacy-policy">Privacy Policy</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- ========================= VENDORS JS ========================= -->
+<script src="https://mylucky2d3d.com/assets/js/vendors/jquery.min.js"></script>
+<script src="https://mylucky2d3d.com/assets/js/vendors/bootstrap.bundle.min.js"></script>
+<script src="https://mylucky2d3d.com/assets/js/vendors/jquery.magnific-popup.min.js"></script>
+<script src="https://mylucky2d3d.com/assets/js/vendors/jquery.easing.min.js"></script>
+<script src="https://mylucky2d3d.com/assets/js/vendors/swiper.min.js"></script>
+<script src="https://mylucky2d3d.com/assets/js/vendors/owl.carousel.min.js"></script>
+
+<!-- ========================= CUSTOM JS ========================= -->
+<script src="https://mylucky2d3d.com/assets/js/custom.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CVNX3TJLBL"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-CVNX3TJLBL');
+</script>
+
+</body>
+</html>
